@@ -5,32 +5,24 @@ class Program
 {
     public static void Main()
     {
-        //Test01a();
-        //Test01b();
-        //Test01c();
-
-        //Test02a();
-        //Test02b();
-        //Test02c();
-
-        //Test03a();
-        //Test03b();
-        //Test03c();
-        //Test03d();
-
-        //Test04();
-
-        //Test05();
-
+        Test01a();
+        Test01b();
+        Test01c();
+        Test02a();
+        Test02b();
+        Test02c();
+        Test03a();
+        Test03b();
+        Test03c();
+        Test03d();
+        Test04();
+        Test05();
         Test06a();
-        //Test06b();
-
-        //Test07();
-
-        //Test10a();
-        //Test10b();
-
-        //Test11();
+        Test06b();
+        Test07();
+        Test10a();
+        Test10b();
+        Test11();
     }
 
     public static void Test00()
