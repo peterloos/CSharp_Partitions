@@ -20,6 +20,7 @@ class Program
         Test06a();
         Test06b();
         Test07();
+        Test07b();
         Test10a();
         Test10b();
         Test11();
@@ -214,6 +215,14 @@ class Program
                 Console.WriteLine(p);
             }
         }
+    }
+
+    public static void Test07b()
+    {
+        PartitionSet set = PartitionsCalculator.Calculate(5);
+
+        foreach (Partition p in set)
+            Console.WriteLine(p);
     }
 
     public static void Test10a()
